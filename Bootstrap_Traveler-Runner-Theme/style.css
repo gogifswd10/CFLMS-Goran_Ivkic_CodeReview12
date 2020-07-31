@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Orbitron:wght@700;900&display=swap');
+
+body {
+	background-color: black;
+	font-family: 'Indie Flower', cursive;
+  	font-size: 30px;
+  	text-shadow: 4px 4px 4px #aaa;
+}
+
+img {
+  	border-radius: 5px;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8); 
+ }
+
+
+.label {
+	margin-right: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+}
+
+nav {
+	border-radius: 5px;
+}
+
+textarea {
+  	max-width: 50vw;
+}
+
+.btn {
+	background-color: #037BFE;
+	color: white;
+	border-color: black;
+	border-radius: 5px;
+	padding: 5px 10px 5px 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+	font-weight: bold;
+}
+
+.parallax_section1 {
+	height: 150px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	position: relative; 
+}
+
+.parallax_section2 {
+	min-height: 250px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	position: relative; 
+}
+
+.parallax_image {
+  	background-image: url("img/particles.jpg"); 
+ }
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around; 
+}
+
+.card {
+	background-color: lightgrey;
+	opacity: 0.8;
+	margin: 20px 10px 20px 10px;
+	padding: 20px 20px 20px 20px;
+	max-width: 80vw;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8); 
+}
+
+#thumbPost {
+	max-width: 200px;
+}
+
+figcaption h2 {
+	position: absolute;
+	margin-top: 30vw;
+	margin-left: 12vw;
+}
+
+#enterSite {
+	text-decoration-line: none;
+	font-family: 'Orbitron', sans-serif;	
+	color: black;
+	font-weight: bold;
+}
+#enterSite:hover {
+	padding: 5px 12px;
+	font-size: 1.2em;	
+	color: white;
+	font-weight: bold;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8); 
+	border-radius: 5px;
+}
+
+#comment {
+	margin: 10px;
+	border: 1px solid black;
+}
+
+.form-control {
+	background-color: lightblue;
+	min-height: 200px;
+}
+
+#para {
+	border-bottom: 1px solid silver;
+	background-image: url("img/titan.jpg");
+	opacity: 0.4;
+}
+#para2 {
+	border-top: 1px solid silver;
+	background-image: url("img/titan.jpg");
+	opacity: 0.4;
+}
+
+#duzina {
+	width: 1000px;
+}
+
+hr {
+	border: 1px solid black;
+}
+
+#naslov {
+	background-color: lightgrey;
+	border-radius: 22px;
+}
